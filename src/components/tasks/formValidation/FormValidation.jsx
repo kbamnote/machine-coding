@@ -31,6 +31,12 @@ const FormValidation = () => {
       newErrors.name = "Name should not be empty";
     }
 
+    if (!data.email.includes("@")) {
+        newErrors.email = "Email is not correct";
+      }
+      
+
+
     if (data.password.length < 3) {
       newErrors.password = "Password should be greater than 3 characters";
     }
@@ -74,8 +80,9 @@ const FormValidation = () => {
             onChange={handleChange}
             value={data.email}
             className="border-2 mt-2 p-2"
-            type="email"
+            type="text"
           />
+           {errors.email && <p className="text-red-500">{errors.email}</p>}
         </div>
 
         <label className="mt-3">Password</label>
