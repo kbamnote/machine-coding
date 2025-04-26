@@ -8,6 +8,7 @@ import Modal from "./components/tasks/modalTask/Modal"
 import MultiStep from "./components/tasks/multiSteppForm/MultiStep"
 import ShoppingList from "./components/tasks/shoppingList/ShoppingList"
 import StarRating from "./components/tasks/starRating/StarRating"
+import TabSwitch from "./components/tasks/tabSwitch/TabSwitch"
 import TwoFactor from "./components/tasks/twoFactor/TwoFactor"
 import UndoableCounter from "./components/tasks/undoableCounter/UndoableCounter"
 
@@ -29,7 +30,8 @@ function App() {
   {/* <Calculator/> */}
   {/* <StarRating/> */}
  {/* <Debouncing/> */}
- <FilterData/>
+ {/* <FilterData/> */}
+ <TabSwitch/>
     </>
   )
 }
