@@ -1,0 +1,26 @@
+ [
+    {
+        "name": "name",
+        "inputType": "name",
+        "placeHolderText": "enter your name...",
+        "buttonName":"Next"
+    },
+    {
+        "name": "email",
+        "inputType": "email",
+        "placeHolderText": "enter your email...",
+        "buttonName":"Next"
+    },
+    {
+        "name": "password",
+        "inputType": "Password",
+        "placeHolderText": "enter your password...",
+        "buttonName":"Next"
+    },
+    {
+        "name": "date",
+        "inputType": "date",
+        "placeHolderText": "enter your DOB...",
+        "buttonName":"Submit"
+    }
+]
